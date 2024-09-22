@@ -1,0 +1,32 @@
+# Ignorar arquivos de ambiente
+.env
+
+# Ignorar diretórios do Docker
+# docker/nginx/default.conf
+
+# Ignorar o Dockerfile do PHP
+# docker/php/Dockerfile
+
+# Ignorar diretórios de compilação do PHP
+vendor/
+node_modules/
+build/
+dist/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos temporários e de cache
+*.tmp
+*.cache
+*.swp
+
+# Ignorar IDE e configurações de editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
